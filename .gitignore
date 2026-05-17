@@ -1,0 +1,34 @@
+# Ignore model weights (large files)
+*.pt
+*.pth
+
+# Ignore training logs
+runs/
+wandb/
+
+# Ignore data directories (too large)
+train/
+val/
+test/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment
+.env
+venv/
+.env/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.log
